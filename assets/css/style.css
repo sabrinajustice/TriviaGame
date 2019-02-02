@@ -1,0 +1,80 @@
+body {
+    background-image: url('../images/trivia-back.JPG');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .trivia-display {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 4em;
+    color: white;
+    text-decoration: underline;
+    font-family: serif;
+    text-shadow: 2px 2px 5px black;
+    animation: titleColor 7s infinite;
+  }
+  h3.game-info {
+    color: #dddddd;
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+  }
+  .questions {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .start-btn {
+    background-color: #dddddd;
+    font-size: 2em;
+    padding: 5px 5px;
+    color: red;
+    width: 250px;
+    height: 70px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    text-shadow: 0px 2px 4px black;
+    border-radius: 5px;
+    border: 2px solid #bababa;
+  }
+  .done-btn {
+    background-color: #dddddd;
+    font-size: 2em;
+    padding: 5px 5px;
+    color: red;
+    width: 250px;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-shadow: 0px 2px 4px black;
+    border-radius: 5px;
+    border: 2px solid #bababa;
+  }
+  
+  
+  .check-with-label:checked + .label-for-check {
+    animation: titleColor 7s infinite;
+    box-shadow:0 0 5px 0px orange inset;
+  }
+  @keyframes titleColor {
+  5%   {color: red;}
+  15%  {color: orange;}
+  25%  {color: yellow;}
+  35%  {color: green;}
+  50%  {color: blue;}
+  75%  {color: #d442f4;}
+  90%  {color: #f44186;}
+  }
+  button:hover {
+    background-color: #bababa;
+  }
+  .all-done {
+    margin-bottom: 230px;
+    margin-top: 210px;
+  }
